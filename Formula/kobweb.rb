@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.0.0-M1 at 2022-01-24T19:50:41.040066-08:00
+# Generated with JReleaser 1.0.0-M1 at 2022-01-24T19:54:19.090151-08:00
 class Kobweb < Formula
   desc "Kobweb CLI provides commands to handle the tedious parts of building a Compose for Web app"
   homepage "https://kobweb.varabyte.com/"
