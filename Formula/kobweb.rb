@@ -7,7 +7,7 @@ class Kobweb < Formula
   sha256 "d90539791e363cdb06e25427855b1b5b4c555521eb497922b664d14c0268114d"
   license "Apache-2.0"
 
-  depends_on "openjdk@16"
+  depends_on "openjdk@11"
 
   def install
     libexec.install Dir["*"]
