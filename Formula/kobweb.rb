@@ -4,7 +4,7 @@ class Kobweb < Formula
   homepage "https://kobweb.varabyte.com/"
   url "https://github.com/varabyte/kobweb/releases/download/cli-v0.9.12/kobweb-0.9.12.zip"
   version "0.9.12"
-  sha256 "7ec80af0aba3d21335fd3d0708c4a24d9cc7cf1c28ba243796cb274865dcde30"
+  sha256 "a7a8fe845f14cb629f410d29521dad7b811d1866d762a65a55e61831c198b92b"
   license "Apache-2.0"
 
   depends_on "openjdk@11"
