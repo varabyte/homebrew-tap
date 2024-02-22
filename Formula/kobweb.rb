@@ -1,10 +1,11 @@
-# Generated with JReleaser 1.7.0 at 2023-07-05T14:35:31.683785536-07:00
+# Generated with JReleaser 1.10.0 at 2024-02-22T21:15:37.286756Z
+
 class Kobweb < Formula
-  desc "Set up and manage your Compose HTML app"
+  desc "Set up and manage your Kobweb (Compose HTML) app"
   homepage "https://kobweb.varabyte.com/"
-  url "https://github.com/varabyte/kobweb-cli/releases/download/v0.9.13/kobweb-0.9.13.zip"
-  version "0.9.13"
-  sha256 "a601a121324d520b50f8b04e8db46c9ffbd9db9a00d0c197bd0172571df97e19"
+  url "https://github.com/varabyte/kobweb-cli/releases/download/v0.9.14/kobweb-0.9.14.zip"
+  version "0.9.14"
+  sha256 "4f1ed0604fa906970f9bc7d6fc4fe521a69675e170941989e802b4190da84269"
   license "Apache-2.0"
 
   depends_on "openjdk@11"
@@ -16,6 +17,6 @@ class Kobweb < Formula
 
   test do
     output = shell_output("#{bin}/kobweb --version")
-    assert_match "0.9.13", output
+    assert_match "0.9.14", output
   end
 end
